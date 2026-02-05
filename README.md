@@ -2,7 +2,6 @@
 
 A comprehensive collection of three operating system projects demonstrating core OS concepts including file system operations, process synchronization, and CPU scheduling algorithms. Built for CS241/CS352 Operating Systems course at Cairo University.
 
-![OS Projects Banner](docs/banner.png)
 
 ## 📋 Table of Contents
 - [Overview](#overview)
