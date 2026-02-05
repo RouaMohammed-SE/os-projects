@@ -33,7 +33,6 @@ Each project demonstrates professional software engineering practices, including
 ### [Project 1: Command Line Interpreter](project1-cli/)
 
 **Type**: Command-line application  
-**Complexity**: ⭐⭐⭐  
 **Key Concepts**: File I/O, path resolution, command parsing
 
 A fully-featured CLI that simulates a Unix-like terminal with 15+ commands including navigation (`cd`, `pwd`, `ls`), file operations (`cp`, `rm`, `cat`), directory management (`mkdir`, `rmdir`), compression utilities (`zip`, `unzip`), and I/O redirection (`>`, `>>`).
@@ -51,8 +50,7 @@ A fully-featured CLI that simulates a Unix-like terminal with 15+ commands inclu
 
 ### [Project 2: Car Wash & Gas Station Simulation](project2-synchronization/)
 
-**Type**: Multi-threaded application (Console + JavaFX GUI)  
-**Complexity**: ⭐⭐⭐⭐  
+**Type**: Multi-threaded application (Console + JavaFX GUI)    
 **Key Concepts**: Threads, semaphores, producer-consumer, race conditions
 
 A producer-consumer problem implementation simulating a car wash with bounded buffer (waiting area) and concurrent service bays. Features custom semaphore implementation, thread-safe queue operations, and real-time process synchronization.
@@ -70,8 +68,7 @@ A producer-consumer problem implementation simulating a car wash with bounded bu
 
 ### [Project 3: CPU Scheduler Simulator](project3-cpu-scheduler/)
 
-**Type**: Maven project with JUnit testing  
-**Complexity**: ⭐⭐⭐⭐⭐  
+**Type**: Maven project with JUnit testing   
 **Key Concepts**: CPU scheduling, context switching, priority aging, quantum management
 
 A comprehensive CPU scheduling simulator implementing 4 algorithms: Preemptive SJF, Round Robin, Priority with Aging, and AG (hybrid) Scheduling. Includes dynamic quantum management, starvation prevention, and complete performance metrics calculation.
@@ -132,9 +129,7 @@ os-projects/
 │
 ├── README.md                              # This file (master README)
 ├── .gitignore                             # Git ignore rules
-├── LICENSE                                # MIT License
-├── CONTRIBUTING.md                        # Contribution guidelines
-└── QUICK_START.md                         # Quick setup guide
+└── LICENSE                                # MIT License
 ```
 
 ## 🛠️ Technologies Used
@@ -285,7 +280,6 @@ mvn exec:java -Dexec.mainClass="org.example.Simulator"
 | **Testing** | Manual | Manual | Automated (JUnit) |
 | **GUI** | ❌ | ✅ (Bonus) | ❌ |
 | **External Deps** | None | JavaFX | Jackson, JUnit |
-| **Grading** | 24 marks | 70 marks | 125 marks |
 
 ## 📝 Documentation
 
@@ -456,50 +450,13 @@ P1 Quantum History: [7, 10, 14, 0]
 Average Waiting Time = 13.00
 ```
 
-## 🤝 Contributing
-
-This repository contains academic projects. While contributions are welcome for:
-- Bug fixes
-- Documentation improvements
-- Additional test cases
-- Performance optimizations
-
-Please note:
-- ⚠️ Students should not copy code for their own assignments
-- ⚠️ Use as reference to understand concepts
-- ⚠️ Implement your own solutions for academic integrity
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
 ## 📄 License
 
 This project is licensed under the MIT License - see [LICENSE](LICENSE) for details.
 
-**Academic Use**: These projects are for educational purposes. Students may reference this code to understand concepts but should implement their own solutions for academic assignments.
-
 ## 👥 Authors
 
-**Students**: Roaa Mohammed, Mennat-Allah Abdallah  
-**Course**: Operating Systems 1 & Advanced Software Engineering  
+**Students**: Roaa Mohammed, Mennat-Allah Abdallah, Peter Boshra,Emil Ehab, Peter Gergis
+**Course**: Operating Systems 1
 **Institution**: Cairo University - Faculty of Computers & Artificial Intelligence  
 **Academic Year**: 2025
-
-## 🙏 Acknowledgments
-
-- Dr. Manar Elkady - Advanced Software Engineering Course
-- Operating Systems 1 Course Instructors
-- Cairo University Faculty of Computers & AI
-- Design Patterns: Gang of Four
-- Operating System Concepts by Silberschatz, Galvin, Gagne
-
-## 📞 Contact
-
-For questions or feedback:
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Repository: [https://github.com/yourusername/os-projects](https://github.com/yourusername/os-projects)
-
----
-
-**Made with ❤️ for Operating Systems Education**
-
-*These projects demonstrate practical application of OS concepts and serve as comprehensive examples for students learning operating systems.*
