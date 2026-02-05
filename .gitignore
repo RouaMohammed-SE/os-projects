@@ -1,0 +1,220 @@
+# =====================================================
+# Java + Maven .gitignore for OS Projects
+# =====================================================
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Virtual machine crash logs
+hs_err_pid*
+replay_pid*
+
+# =====================================================
+# Maven Specific
+# =====================================================
+
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# =====================================================
+# IDE Files
+# =====================================================
+
+## IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+
+## Eclipse
+.classpath
+.project
+.settings/
+bin/
+.metadata
+
+## NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+## VS Code
+.vscode/
+*.code-workspace
+.history/
+
+## JetBrains (general)
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/**/contentModel.xml
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+
+# =====================================================
+# OS Specific
+# =====================================================
+
+## macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+## Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+## Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# =====================================================
+# Build Directories
+# =====================================================
+
+# Gradle
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# Ant
+build.xml.bak
+
+# sbt
+project/project
+project/target
+target
+
+# =====================================================
+# Test Output
+# =====================================================
+
+test-output/
+*.test
+*.spec
+coverage/
+.pytest_cache/
+
+# =====================================================
+# Temporary Files
+# =====================================================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.#*
+\#*#
+
+# =====================================================
+# Personal/Sensitive Files
+# =====================================================
+
+*.key
+*.pem
+config.properties
+secrets.properties
+credentials.json
+application-local.properties
+
+# =====================================================
+# Documentation Build Files
+# =====================================================
+
+docs/_build/
+site/
+javadoc/
+
+# =====================================================
+# Project Specific
+# =====================================================
+
+# Project 1 - CLI
+# (No specific ignores needed)
+
+# Project 2 - Car Wash Simulation
+# (No specific ignores needed)
+
+# Project 3 - CPU Scheduler
+# Maven target directory already covered above
+
+# Custom test output files (if any)
+test-results/
+simulation-output/
+
+# =====================================================
+# Git Configuration
+# =====================================================
+
+# Keep empty directories with .gitkeep
+!.gitkeep
+
+# Keep specific configuration files
+!.mvn/wrapper/maven-wrapper.properties
